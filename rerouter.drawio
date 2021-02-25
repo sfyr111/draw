@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T02:29:48.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bdmMQl48RyETJxAwUqZ7" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T02:53:18.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="V-TuarzQ035LhbFOzrQn" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
           <mxGeometry x="270" y="610" width="180" height="95" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-52" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;卸载应用，执行 app.unmount&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319" y="380" width="190" height="40" as="geometry" />
+          <mxGeometry x="317.5" y="380" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-125" value="&lt;h1&gt;navigator-events&lt;/h1&gt;&lt;p&gt;1. 捕获 hashchange, popstate. 将事件回调存入 &lt;b&gt;&lt;u&gt;capturedEventListeners &lt;/u&gt;&lt;/b&gt;中待 reroute 完成后执行&lt;br&gt;2. 为 pushState, replaceState 打补丁, 解决 window.hitsotry api 触发的 URL 变化&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="295" y="-350" width="235" height="140" as="geometry" />
@@ -137,7 +137,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-144" value="capturedEventListeners[eventName].forEach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;fontSize=12;" vertex="1" connectable="0" parent="CSW-Kpyo8-qw9y4_yese-136">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-144" value="capturedEventListeners[eventName].forEach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;fontSize=12;labelBackgroundColor=#CDEB8B;labelBorderColor=#000000;" vertex="1" connectable="0" parent="CSW-Kpyo8-qw9y4_yese-136">
           <mxGeometry x="0.4092" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -163,7 +163,7 @@
         <mxCell id="CSW-Kpyo8-qw9y4_yese-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF9933;dashed=1;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-123" target="CSW-Kpyo8-qw9y4_yese-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-145" value="capturedEventListeners[eventName].push(fn)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;fontSize=12;" vertex="1" connectable="0" parent="CSW-Kpyo8-qw9y4_yese-135">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-145" value="capturedEventListeners[eventName].push(fn)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;fontSize=12;labelBackgroundColor=#CDEB8B;labelBorderColor=#000000;" vertex="1" connectable="0" parent="CSW-Kpyo8-qw9y4_yese-135">
           <mxGeometry x="0.3685" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
