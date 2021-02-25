@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T03:10:43.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9d6zrgORwT9Pmd9tYdjm" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T03:12:03.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oB2BUQMKc2rrWsa0nJ6Q" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="getAppChanges" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="getAppChanges" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="50" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
@@ -54,7 +54,7 @@
         <mxCell id="CSW-Kpyo8-qw9y4_yese-5" value="&lt;h1&gt;reroute&lt;/h1&gt;&lt;p&gt;执行 start 和 registerApplication&lt;br&gt;都将执行 reroute 方法&lt;/p&gt;&lt;p&gt;不同在于 start() 时 started = true&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="-170" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-6" value="&lt;h1&gt;getAppChanges&lt;/h1&gt;&lt;p&gt;返回三个 Array&amp;lt;app&amp;gt; 提取不同状态的应用&lt;/p&gt;&lt;p&gt;appsToLoad: 待 load 的 app, LOADING_SOURCE_CODE&lt;/p&gt;&lt;p&gt;&lt;span&gt;appsToMont 待 mount 的 app, NOT_MOUNTED&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;appsToUnmount 待 unmount 的 app, MOUNTED&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-6" value="&lt;h1&gt;getAppChanges&lt;/h1&gt;&lt;p&gt;返回三个 Array&amp;lt;app&amp;gt; 提取不同状态的应用&lt;/p&gt;&lt;p&gt;appsToLoad: 待 load 的 app, &lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;LOADING_SOURCE_CODE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;appsToMont 待 mount 的 app, &lt;span style=&quot;background-color: rgb(230 , 208 , 222)&quot;&gt;NOT_MOUNTED&lt;/span&gt;&lt;/p&gt;&lt;p&gt;appsToUnmount 待 unmount 的 app, &lt;span style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;MOUNTED&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#ffcc99;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="295" y="-20" width="335" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-17" target="CSW-Kpyo8-qw9y4_yese-6">
@@ -225,7 +225,7 @@
         <mxCell id="CSW-Kpyo8-qw9y4_yese-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-163" target="CSW-Kpyo8-qw9y4_yese-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-163" value="MOUNTING" style="rounded=1;whiteSpace=wrap;html=1;align=center;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-163" value="MOUNTING" style="rounded=1;whiteSpace=wrap;html=1;align=center;gradientColor=#ffd966;strokeColor=#d6b656;fillColor=#FFF2CC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="851" y="620" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-166" target="CSW-Kpyo8-qw9y4_yese-173">
