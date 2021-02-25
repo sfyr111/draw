@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T02:31:55.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wtbM5yZAqPavdoREoq-h" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T02:32:17.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9NULQNGFVWuo3knqO18h" version="14.2.7" type="github">
   <diagram id="8ACWD_Dafs6rEpKmImHS" name="第 1 页">
     <mxGraphModel dx="595" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         </mxCell>
         <mxCell id="h3DEKp1L-RRj9ouZcUCp-41" value="LOAD_ERROR" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1540" y="-445" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h3DEKp1L-RRj9ouZcUCp-45" value="加载报错" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1603" y="-470" width="54" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
