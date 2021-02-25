@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:17:47.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vdy_44kqhePknczv6JQS" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:18:11.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="R7F1DBOhiLMb8ZMIOUv6" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2324" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,7 +123,7 @@
         <mxCell id="CSW-Kpyo8-qw9y4_yese-47" value="&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="255" y="600" width="210" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-214" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.655;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#67AB9F;strokeWidth=2;fontSize=24;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-52" target="CSW-Kpyo8-qw9y4_yese-126">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-216" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.705;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#67AB9F;strokeWidth=2;fontSize=24;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-52" target="CSW-Kpyo8-qw9y4_yese-126">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-52" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;卸载应用，执行 app.unmount&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#ffcccc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=bottom;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
