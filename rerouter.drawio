@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:18:11.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="R7F1DBOhiLMb8ZMIOUv6" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:31:09.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Yw9ujBqLfSPUVaTbbEUw" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2324" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2605" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -160,7 +160,7 @@
         <mxCell id="CSW-Kpyo8-qw9y4_yese-130" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;1.浏览器导航操作&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2.history api&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;3.hashchange, popstate&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;strokeColor=#36393d;fillColor=#F9F7ED;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-80" y="-584" width="150" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="CSW-Kpyo8-qw9y4_yese-131" value="&lt;h1&gt;navigator-events&lt;/h1&gt;&lt;p&gt;子应用加载流程结束, 执行所有捕获的事件回调&lt;/p&gt;&lt;u style=&quot;font-weight: bold&quot;&gt;capturedEventListeners&amp;nbsp;&lt;/u&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="CSW-Kpyo8-qw9y4_yese-131" value="&lt;h1&gt;navigator-events&lt;/h1&gt;&lt;p&gt;子应用卸载&lt;span&gt;结束, 执行所有捕获的事件回调&lt;/span&gt;&lt;/p&gt;&lt;u style=&quot;font-weight: bold&quot;&gt;capturedEventListeners&amp;nbsp;&lt;/u&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="345" y="790" width="235" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CSW-Kpyo8-qw9y4_yese-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF9933;dashed=1;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CSW-Kpyo8-qw9y4_yese-123" target="CSW-Kpyo8-qw9y4_yese-134">
