@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T14:08:06.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="ukB3yjqdZCNuY1-2R-o9" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T14:19:38.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="6MnIL5Ai4Y1eRCWdT63-" version="14.4.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2013" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-215" value="&lt;span style=&quot;background-color: rgb(96 , 169 , 23)&quot;&gt;process.send(&#39;msg&#39;, fn)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1390" y="555" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-229" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-216" target="9C7MWj4vBOad_BRdYSQF-228">
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-278" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-216" target="9C7MWj4vBOad_BRdYSQF-247">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-216" value="target._send(msg, handle,&amp;nbsp;options, fn)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
@@ -336,14 +336,8 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-225" value="target.send(msg, handle, options, callback)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1335" y="720" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-248" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-228" target="9C7MWj4vBOad_BRdYSQF-247">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-228" value="&lt;span style=&quot;background-color: rgb(0 , 80 , 239)&quot;&gt;channel.writeUtf8String(req, stiring, handle)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="630" width="270" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-234" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;在下个阶段执行回调&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="690" width="120" height="30" as="geometry" />
+          <mxGeometry x="3209.5" y="595" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-239" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-238" target="9C7MWj4vBOad_BRdYSQF-225">
           <mxGeometry relative="1" as="geometry" />
@@ -361,17 +355,20 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-238" value="&lt;span style=&quot;background-color: rgb(96 , 169 , 23)&quot;&gt;process.send(&#39;msg&#39;, server, fn)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1375" y="880" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-270" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-244" target="9C7MWj4vBOad_BRdYSQF-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-244" value="target._send(msg, handle, options, fn)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1654" y="765" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-247" value="process.nextTick(fn)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="2481" y="630" width="179" height="60" as="geometry" />
+          <mxGeometry x="3180" y="625" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-250" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;channel 就是 ipc 对象 pipe 实例&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="605" width="190" height="30" as="geometry" />
+          <mxGeometry x="2490" y="595" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-256" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;调用 c 底层写入传递消息&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1948" y="625" width="152" height="30" as="geometry" />
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-256" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;调用 c 底层传递消息序列化对象&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2509" y="860" width="191" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-257" value="WriteWrap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2150" y="1038" width="200" height="60" as="geometry" />
@@ -385,8 +382,38 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-262" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;识别 stdio&amp;nbsp; Array&amp;lt;string&amp;gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#E1D5E7;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="450" y="705" width="160" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-264" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;&lt;span style=&quot;background-color: rgb(96 , 169 , 23)&quot;&gt;const server = require(&#39;net&#39;).createSever()&lt;br&gt;server.listen(8000, function() {&lt;br&gt;&amp;nbsp; &amp;nbsp; process.send(&#39;server handle&#39;, server)&lt;br&gt;})&amp;nbsp;&lt;br&gt;// server 对象就是 handle 句柄&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;fillColor=#60a917;" vertex="1" parent="1">
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-264" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;&lt;span style=&quot;background-color: rgb(96 , 169 , 23)&quot;&gt;const server = require(&#39;net&#39;).createSever()&lt;br&gt;server.listen(8000, function() {&lt;br&gt;&amp;nbsp; &amp;nbsp; process.send(&#39;server handle&#39;, server)&lt;br&gt;})&amp;nbsp;&lt;br&gt;// server 对象就是 handle 句柄&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="1584" y="865" width="246" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-266" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;JSON.stringify(msg)&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2329" y="720" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-277" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-268" target="9C7MWj4vBOad_BRdYSQF-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-268" value="handleConversion[message.type].send" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="770" width="266" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-283" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-269" target="9C7MWj4vBOad_BRdYSQF-247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-269" value="handleConversion[message.type].got" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="770" width="266" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-274" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;{ cmd, type, msg } 内部对象&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="765" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-228" value="&lt;span style=&quot;background-color: rgb(0 , 80 , 239)&quot;&gt;channel.writeUtf8String(req, stiring, handle)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="625" width="270" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-279" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;mian_thread 获取 JSON.parse(msg)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2743" y="735" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-280" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;传递句柄&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="830" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-281" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;获取句柄&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="835" width="152" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
