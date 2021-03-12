@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T01:59:21.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="4HIoAQgdGPFJX33-6EZr" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T02:01:43.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="jVcEYwAPRnhfC1NcrXjO" version="14.4.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2013" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,11 +68,17 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-61" value="执行开销大的任务 npm install" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="410" width="170" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-62" value="childProcess.exec(&#39;ls -al&#39;, cb)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-62" value="cp.exec(&#39;ls -al&#39;, cb)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-63" value="childProcess.execFile(file.shell, [...args], cb)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="270" width="250" height="20" as="geometry" />
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-63" value="cp.execFile(file.shell, [...args], cb)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-85" value="cp.spawn(file.shell, [...args], options)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-86" value="const cp = require(&#39;child_process&#39;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
