@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T08:41:03.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Ady73PrUdGsnAVNHIpdq" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T08:42:38.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="3imIz7Wx8YwTqp1-pAJb" version="14.4.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2013" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -281,6 +281,15 @@
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-203" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;输出&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#E1D5E7;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="836" y="605" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-205" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;文件描述符&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#E1D5E7;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="625" width="90" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-208" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;主进程 stdiout&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#E1D5E7;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="690" width="90" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-209" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;子进程事件捕获&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#E1D5E7;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="787.5" width="90" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
