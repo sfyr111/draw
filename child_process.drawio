@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T08:35:10.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="CIUUxboQnqwuh3Ew4bTf" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T08:36:25.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="cZy7enaToc2idpEaEht-" version="14.4.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2013" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,8 +247,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-174" target="9C7MWj4vBOad_BRdYSQF-116">
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3333FF;dashed=1;" edge="1" parent="1" source="9C7MWj4vBOad_BRdYSQF-174" target="9C7MWj4vBOad_BRdYSQF-116">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-200" value="描述为 ipc 建立 ipc 通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="9C7MWj4vBOad_BRdYSQF-198">
+          <mxGeometry x="-0.1268" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-174" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ipc&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;fillColor=#ffffff;gradientColor=#ffffff;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="670" y="840" width="120" height="60" as="geometry" />
