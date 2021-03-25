@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T10:21:08.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="tHLxiakG391mesng3C20" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T10:40:14.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="U6C-Q6-HVYyMI71IslmU" version="14.4.2" type="github">
   <diagram id="oVQuuiq1E-Ry_h9An2Pa" name="第 1 页">
     <mxGraphModel dx="2243" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,6 +8,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-21" target="myJG3aS-q8uGBaLZNTOv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-21" target="myJG3aS-q8uGBaLZNTOv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-21" target="myJG3aS-q8uGBaLZNTOv-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -25,13 +31,13 @@
         <mxCell id="myJG3aS-q8uGBaLZNTOv-5" value="SubApp 司机管理" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-170" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="myJG3aS-q8uGBaLZNTOv-6" value="SubApp" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-6" value="SubApp 营销" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="myJG3aS-q8uGBaLZNTOv-7" value="SubApp" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-7" value="SubApp 出行" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-170" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="myJG3aS-q8uGBaLZNTOv-8" value="SubApp" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-8" value="SubApp&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-16" target="myJG3aS-q8uGBaLZNTOv-6">
@@ -84,6 +90,36 @@
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-34" value="运营商平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry y="590" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-36" target="myJG3aS-q8uGBaLZNTOv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="myJG3aS-q8uGBaLZNTOv-36" target="myJG3aS-q8uGBaLZNTOv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-40" value="bunld -&amp;gt; code split -&amp;gt; remote split - systemJs, ssr code split&lt;br&gt;|&lt;br&gt;micro app&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="60" width="630" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="230" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-43" value="MianApp" style="ellipse;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-44" value="维保平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="255" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="500" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-47" value="MianApp" style="ellipse;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="955" y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-48" value="资产平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="520" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
