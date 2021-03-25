@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T11:00:19.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="9lhRzsnWNUAwMggnkVNn" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T11:00:58.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="i0hwZDCbpwDUo0vMV-tC" version="14.4.2" type="github">
   <diagram id="oVQuuiq1E-Ry_h9An2Pa" name="第 1 页">
     <mxGraphModel dx="3070" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="970" y="640" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-53" value="基础依赖2.0&lt;br&gt;vue,vuex,vue-route,moment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="520" y="125" width="130" height="240" as="geometry" />
+          <mxGeometry x="525" y="125" width="130" height="240" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-55" value="npm、dll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="545" y="80" width="80" height="20" as="geometry" />
