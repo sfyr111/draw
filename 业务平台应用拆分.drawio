@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T11:08:05.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="6YoQT0SsRbHp9JuM9uYZ" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T11:08:37.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UMEATthBSCusSIbfDMlo" version="14.4.2" type="github">
   <diagram id="oVQuuiq1E-Ry_h9An2Pa" name="第 1 页">
     <mxGraphModel dx="3320" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="myJG3aS-q8uGBaLZNTOv-2" value="业务依赖&lt;br&gt;login-util(登录方法), login-view(登录页面), menu(主应用菜单配置)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="525" y="670" width="130" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="myJG3aS-q8uGBaLZNTOv-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="230" width="460" height="270" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-5" value="SubApp 司机管理" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
