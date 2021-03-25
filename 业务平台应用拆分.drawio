@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T10:42:42.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="MSwNwpI9V6giOCWMZ3FJ" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T10:43:57.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="2szVV_TyeHyLUXutwXTS" version="14.4.2" type="github">
   <diagram id="oVQuuiq1E-Ry_h9An2Pa" name="第 1 页">
-    <mxGraphModel dx="2243" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2243" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,9 +17,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="470" y="230" width="230" height="620" as="geometry" />
+          <mxGeometry x="470" y="-80" width="230" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="myJG3aS-q8uGBaLZNTOv-1" value="基础依赖&lt;br&gt;vue,vuex,vue-route,moment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-1" value="基础依赖1.0&lt;br&gt;vue,vuex,vue-route,moment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="525" y="260" width="130" height="240" as="geometry" />
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-2" value="业务依赖&lt;br&gt;login-util(登录方法), login-view(登录页面), menu(主应用菜单配置)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -120,6 +120,9 @@
         </mxCell>
         <mxCell id="myJG3aS-q8uGBaLZNTOv-48" value="资产平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myJG3aS-q8uGBaLZNTOv-53" value="基础依赖2.0&lt;br&gt;vue,vuex,vue-route,moment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-15" width="130" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
