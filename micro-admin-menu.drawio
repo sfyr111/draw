@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T06:32:36.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="UJUPTT2UnRQgCSAy_0mr" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T06:51:40.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="nmutDMCb9n_ZXdEFKx15" version="14.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1361" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
             <mxGeometry y="26" width="110" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-68" value="中台业务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#82b366;" vertex="1" collapsed="1" parent="1">
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-68" value="中台业务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="310" width="110" height="26" as="geometry">
             <mxRectangle x="60" y="310" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
@@ -78,6 +78,106 @@
         <UserObject label="原通用业务" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-82">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-68">
             <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-83" value="管理T3自定义点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="350" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="350" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="自定义区域" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-84">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-83">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="自定义上车点" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-93">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-83">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-90" value="安全管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="392" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="392" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="行车事件规则" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-92">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-90">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="行车事件管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-91">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-90">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-94" value="APP协议管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="430" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="430" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="目录管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-95">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-94">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="协议管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-96">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-94">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-101" value="自动驾驶" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="470" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="470" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="区域管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-102">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-101">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="用户群管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-103">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-101">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-107" value="快专配置管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="510" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="510" width="300" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="取消原因管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-108">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-107">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-110" value="司机口罩监测管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="550" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="550" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="汇总统计数据" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-111">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-110">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="详细数据" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-112">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-110">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-113" value="三方平台管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#d6b656;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="60" y="590" width="110" height="26" as="geometry">
+            <mxRectangle x="60" y="590" width="300" height="106" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="电子围栏过滤管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-114">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-113">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="三方平台开城管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-115">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-113">
+            <mxGeometry y="66" width="110" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
