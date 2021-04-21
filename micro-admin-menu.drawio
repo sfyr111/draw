@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T10:55:29.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="wJ7HmrfAfe9fak_n2R7t" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T10:56:13.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="U_u_2TZ6I5VkH0wxZmG7" version="14.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2461" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2461" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,12 +313,6 @@
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-172" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;br&gt;当前后台打开&lt;br&gt;&lt;br&gt;子应用：&lt;br&gt;&lt;/span&gt;&lt;ol style=&quot;margin: 10px 0px 0px ; color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;出行业务&lt;/li&gt;&lt;li&gt;司机业务&lt;/li&gt;&lt;li&gt;运营商&lt;/li&gt;&lt;li&gt;营销&lt;/li&gt;&lt;li&gt;通用&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=right;" vertex="1" parent="1">
           <mxGeometry x="195" y="585" width="110" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-174" value="与权限中心一致, 角色权限调整小" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1060" width="180" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-175" value="当前用户体验使用习惯，改变小" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1090" width="180" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-176" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="120" width="320" height="640" as="geometry" />
         </mxCell>
@@ -452,12 +446,6 @@
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-358" value="menu3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-355">
           <mxGeometry y="78" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-286" value="权限中心. 角色权限调整" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1580" width="180" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-287" value="菜单按业务线更改" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1610" width="180" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-380" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=right;direction=west;" vertex="1" parent="1">
           <mxGeometry x="1000" y="168" width="20" height="292" as="geometry" />
         </mxCell>
@@ -471,7 +459,19 @@
           <mxGeometry x="1020" y="605" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-384" value="Dashboard 操作台" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="10" width="220" height="40" as="geometry" />
+          <mxGeometry x="360" y="-100" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-387" value="权限中心. 角色权限调整" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="50" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-388" value="菜单按业务线更改" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="80" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-389" value="与权限中心一致, 角色权限调整小" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="39" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-390" value="当前用户体验使用习惯，改变小" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="69" width="180" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
