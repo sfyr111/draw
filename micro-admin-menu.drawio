@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T06:27:52.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="8QIiDnezSZDxP1xHYUSr" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T06:32:36.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="UJUPTT2UnRQgCSAy_0mr" version="14.6.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1361" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -12,102 +12,74 @@
         </mxCell>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-14" value="企业用车" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="98" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="98" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="98" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-15" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-14">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-16" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-14">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-17" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-14">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="企业用车" link="http://10.3.97.249/t3-web-companyLines/" id="B4yOyPnlUr20ly3BL5Dv-72">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-14">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-48" value="顺风车" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="130" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="130" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-49" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-48">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-50" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-48">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-51" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-48">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="顺风车" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-77">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-48">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-52" value="营销管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="165" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="165" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-53" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-52">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-54" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-52">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-55" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-52">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="营销管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-78">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-52">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-56" value="资源管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="200" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="200" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-57" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-56">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-58" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-56">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-59" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-56">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="资源管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-79">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-56">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-60" value="财务管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="234" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="234" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-61" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-60">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-62" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-60">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-63" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-60">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="财务管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-80">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-60">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="B4yOyPnlUr20ly3BL5Dv-64" value="官网管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="270" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="270" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-65" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-64">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-66" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-64">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-67" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-64">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-68" value="中台业务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;" vertex="1" collapsed="1" parent="1">
+        <UserObject label="官网管理" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-81">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-64">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4yOyPnlUr20ly3BL5Dv-68" value="中台业务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;strokeColor=#82b366;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="60" y="310" width="110" height="26" as="geometry">
-            <mxRectangle x="60" y="140" width="300" height="104" as="alternateBounds" />
+            <mxRectangle x="60" y="310" width="300" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-69" value="Item 1" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-68">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-70" value="Item 2" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-68">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B4yOyPnlUr20ly3BL5Dv-71" value="Item 3" style="text;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-68">
-          <mxGeometry y="78" width="110" height="26" as="geometry" />
-        </mxCell>
+        <UserObject label="原通用业务" link="https://www.draw.io" id="B4yOyPnlUr20ly3BL5Dv-82">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=right;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="B4yOyPnlUr20ly3BL5Dv-68">
+            <mxGeometry y="26" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
