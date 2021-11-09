@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T04:06:08.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Jm0Y7GgEoV1cKPHEbXKz" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T11:00:39.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7OtizeH3w5kQljxP4khU" version="15.6.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
         <mxCell id="9C7MWj4vBOad_BRdYSQF-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9C7MWj4vBOad_BRdYSQF-120" target="9C7MWj4vBOad_BRdYSQF-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9C7MWj4vBOad_BRdYSQF-127" value="setupChildProcssIpcChannel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9C7MWj4vBOad_BRdYSQF-126" vertex="1" connectable="0">
+        <mxCell id="9C7MWj4vBOad_BRdYSQF-127" value="&lt;span style=&quot;color: rgb(130 , 80 , 223) ; font-family: , , &amp;#34;sf mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , monospace ; font-size: 12px ; background-color: rgb(248 , 230 , 136)&quot;&gt;setupChildProcessIpcChannel&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9C7MWj4vBOad_BRdYSQF-126" vertex="1" connectable="0">
           <mxGeometry x="-0.1557" y="3" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -414,6 +414,9 @@
         </mxCell>
         <mxCell id="9C7MWj4vBOad_BRdYSQF-288" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;触发内部消息 internalMessage&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2125" y="735" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tBn2e8OsnMG6zKAUpi3L-2" value="&lt;h2 id=&quot;blob-path&quot; class=&quot;breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0&quot; style=&quot;box-sizing: border-box ; margin: 0px 8px ; width: auto ; min-width: 0px ; text-indent: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;lib/internal/bootstrap/pre_execution.js&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="270" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
