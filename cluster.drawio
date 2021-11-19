@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T14:43:19.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Engv9Sxry4B_1evOeOr6" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T14:48:08.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4J5dsPQZyaXQA6JgRY4J" version="15.7.4" type="github">
   <diagram id="grIwNT-S6jc2hFTfyJrn" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,13 +98,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="lgjimfyzY3b7WuhTQ_To-29" target="TFFa3XyZHY26HvmLJQv9-16">
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="lgjimfyzY3b7WuhTQ_To-29" target="TFFa3XyZHY26HvmLJQv9-57">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-20" value="once listening" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="TFFa3XyZHY26HvmLJQv9-19">
-          <mxGeometry x="0.1818" y="-2" relative="1" as="geometry">
-            <mxPoint x="-15" y="-2" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lgjimfyzY3b7WuhTQ_To-29" value="handle = new constructor" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-30" y="990" width="140" height="60" as="geometry" />
@@ -132,49 +127,52 @@
         <mxCell id="TFFa3XyZHY26HvmLJQv9-6" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 9pt ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-family: &amp;#34;fira code&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;cb: listenOnMasterHandle&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="105" y="1285" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-15">
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-40" value="传给 listenOnMasterHandle 一个假的 句柄&lt;br&gt;const handle = { close, listen, ref: noop, unref: noop };&lt;br&gt;cb(0, handle);&amp;nbsp;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="1340" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="1170" as="targetPoint" />
+            <mxPoint x="-625" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-15" value="RoundRobinHandle.prototype.distribute" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="540" y="990" width="230" height="60" as="geometry" />
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-51" value="RoundRobinHandle.prototype.distribute" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="990" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-16" target="TFFa3XyZHY26HvmLJQv9-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-16" value="this.handle.onconnection = (err, handle) =&amp;gt; this.distribute(err, handle);" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="990" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-30" value="监听后通过 onconnection 回调把 handle 进行分发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="195" y="960" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-32" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;this.handles.push(handle);&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;分发至 rr 实例中的 this.free 中&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="670" y="1100" as="geometry">
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-52" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;this.handles.push(handle);&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;分发至 rr 实例中的 this.free 中&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-610" y="1100" as="geometry">
             <mxPoint x="-13" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-33">
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-54">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="1280" as="targetPoint" />
+            <mxPoint x="-625" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-33" value="RoundRobinHandle.prototype.handoff" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1150" width="230" height="60" as="geometry" />
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-54" value="RoundRobinHandle.prototype.handoff" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1150" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-36" value="this.handoff(worker)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="595" y="1280" width="120" height="60" as="geometry" />
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-55" value="this.handoff(worker)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-37" value="sendHelper -&amp;gt; worker&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="1140" as="geometry">
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-56" value="发送消息和handle给对应worker进程，处理业务逻辑" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1350" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-57" target="TFFa3XyZHY26HvmLJQv9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-57" value="this.handle.onconnection = (err, handle) =&amp;gt; this.distribute(err, handle);" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="990" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-58" value="监听后通过 onconnection 回调把 handle 进行分发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="960" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-59" value="sendHelper -&amp;gt; worker&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1090" y="1130" as="geometry">
             <mxPoint x="463" y="110" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-39" value="发送消息和handle给对应worker进程，处理业务逻辑" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1350" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TFFa3XyZHY26HvmLJQv9-40" value="传给 listenOnMasterHandle 一个假的 句柄&lt;br&gt;const handle = { close, listen, ref: noop, unref: noop };&lt;br&gt;cb(0, handle);" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="1340" width="310" height="40" as="geometry" />
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-62" value="once listening" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-100" y="1020" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
