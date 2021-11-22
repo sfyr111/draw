@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T14:48:08.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4J5dsPQZyaXQA6JgRY4J" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T06:26:59.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uZtJlhjYS_-7Na2romDf" version="15.7.4" type="github">
   <diagram id="grIwNT-S6jc2hFTfyJrn" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="lgjimfyzY3b7WuhTQ_To-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="lgjimfyzY3b7WuhTQ_To-50" target="lgjimfyzY3b7WuhTQ_To-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lgjimfyzY3b7WuhTQ_To-50" value="&lt;span&gt;handle.add(worker, cb)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="lgjimfyzY3b7WuhTQ_To-50" value="this.server.once(&#39;listening&#39;, done);" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-25" y="1130" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lgjimfyzY3b7WuhTQ_To-58" value="rr(reply,key, cb)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
@@ -173,6 +173,15 @@
         </mxCell>
         <mxCell id="TFFa3XyZHY26HvmLJQv9-62" value="once listening" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-100" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="TFFa3XyZHY26HvmLJQv9-65" target="TFFa3XyZHY26HvmLJQv9-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-65" value="&lt;h1&gt;cluster 模块&lt;/h1&gt;&lt;p&gt;创建 child&amp;nbsp;&lt;/p&gt;&lt;span class=&quot;pl-en&quot; style=&quot;box-sizing: border-box ; font-family: , , &amp;#34;sf mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , monospace&quot;&gt;&lt;span class=&quot;selection-highlight&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span class=&quot;pl-token active&quot; style=&quot;box-sizing: border-box ; cursor: pointer ; background: rgb(255 , 234 , 127)&quot;&gt;_setupWorker&lt;br&gt;简历 onmessage -&amp;gt; onconnection&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box ; color: rgb(36 , 41 , 47) ; font-family: , , &amp;#34;sf mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , monospace&quot;&gt; &lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="750" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TFFa3XyZHY26HvmLJQv9-67" value="this.server.once(&#39;listening&#39;, done);" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1180" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
