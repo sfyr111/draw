@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T14:09:01.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="g8RLYoa0gH3KSPxyt2xR" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T14:10:08.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="QPw6Bqlm4EAW0__pBPQV" version="15.8.9" type="github">
   <diagram id="Es0d-wzucGMr7oLocFgV" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,8 +232,8 @@
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-56" value="onconnection" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="609" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-57" value="创建 handle 对象假监听&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="424" y="760" width="146" height="30" as="geometry" />
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-57" value="创建 handle 对象假监听, 只用来通知主进程 close" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="422" y="750" width="138" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-58" value="取得 RoundRobinHandle 创建的&amp;nbsp; handle&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="422" y="574" width="136" height="30" as="geometry" />
