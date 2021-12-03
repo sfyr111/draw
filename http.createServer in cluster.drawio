@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T14:38:22.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="J9b2k4KPMLfVsK_mPif5" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T14:39:00.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="uLTVx-TuS_kXpMRFK2ow" version="15.8.9" type="github">
   <diagram id="Es0d-wzucGMr7oLocFgV" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,7 +202,7 @@
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-27" value="执行 done 函数&amp;nbsp; 执行 child.js&amp;nbsp; _getServer 回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-747" y="800" width="377" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-28" value="创建 fake net.Server" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-28" value="创建 fake listen 的 handle" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-29" value="function rr(message, indexesKey, cb) {&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; function listen() {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;return 0; // fake listen&lt;br&gt;&amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp; function close() {&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;send({ act: &#39;close&#39;, key });&lt;br&gt;&amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp; handles.set(key, handle)&lt;br&gt;&amp;nbsp; cb(0, handle)&lt;br&gt;}" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
