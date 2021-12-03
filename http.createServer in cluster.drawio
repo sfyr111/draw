@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T11:39:52.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="J5s3dSOK22aURLveRTb9" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T11:40:30.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="o9_4y-TzHsZ5Pw1Na1k0" version="15.8.9" type="github">
   <diagram id="Es0d-wzucGMr7oLocFgV" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,13 +143,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="QnhcxREiLZKdfHmg9MSz-31" target="0VZ2eFC5ibp_0VRxgWUH-43">
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1" source="QnhcxREiLZKdfHmg9MSz-31" target="0VZ2eFC5ibp_0VRxgWUH-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnhcxREiLZKdfHmg9MSz-31" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;b&gt;handoff&lt;/b&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-725" y="550" width="230" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="QnhcxREiLZKdfHmg9MSz-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;elbow=vertical;fillColor=#d5e8d4;strokeColor=#3399FF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QnhcxREiLZKdfHmg9MSz-36" target="QnhcxREiLZKdfHmg9MSz-31" edge="1">
+        <mxCell id="QnhcxREiLZKdfHmg9MSz-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;elbow=vertical;fillColor=#d5e8d4;strokeColor=#3399FF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" parent="1" source="QnhcxREiLZKdfHmg9MSz-36" target="QnhcxREiLZKdfHmg9MSz-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnhcxREiLZKdfHmg9MSz-36" value="distribute" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;" parent="1" vertex="1">
@@ -197,7 +197,7 @@
           <mxGeometry x="-575" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-24" value="loop" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="450" width="60" height="30" as="geometry" />
+          <mxGeometry x="-540" y="464" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-27" value="执行 done 函数 通过 ipc 通知子进程, 执行 _getServer 回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-747" y="800" width="377" height="30" as="geometry" />
