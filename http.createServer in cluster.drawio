@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T11:44:43.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="E4RFuKpjz_iA9UioKAVg" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T13:33:30.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="HTp8hi9_5EEtxwUO-2NK" version="15.8.9" type="github">
   <diagram id="Es0d-wzucGMr7oLocFgV" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YYYhBLbbZfH8u_qFGWKK-5" value="cluster._getServer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="455" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YYYhBLbbZfH8u_qFGWKK-7" value="cluster._getServer(server, serverQuery, listenOnMasterHandle)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="280" width="360" height="30" as="geometry" />
@@ -135,7 +135,7 @@
         <mxCell id="QnhcxREiLZKdfHmg9MSz-29" value="add" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-797" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="QnhcxREiLZKdfHmg9MSz-31" target="YYYhBLbbZfH8u_qFGWKK-12">
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="QnhcxREiLZKdfHmg9MSz-31" target="0VZ2eFC5ibp_0VRxgWUH-56">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-67" y="660" />
@@ -196,7 +196,7 @@
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-11" value="handle" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-575" y="90" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-27" value="执行 done 函数 通过 ipc 通知子进程, 执行 _getServer 回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-27" value="执行 done 函数&amp;nbsp; 执行 child.js&amp;nbsp; _getServer 回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-747" y="800" width="377" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-28" value="创建 fake net.Server" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
@@ -205,7 +205,7 @@
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-29" value="function rr(message, indexesKey, cb) {&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; function listen() {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;return 0; // fake listen&lt;br&gt;&amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp; function close() {}&lt;br&gt;&lt;br&gt;&amp;nbsp; handles.set(key, handle)&lt;br&gt;&amp;nbsp; cb(0, handle)&lt;br&gt;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="790" width="250" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-39" value="通过 ipc 通知子进程," style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-39" value="通过 ipc 通知子进程, 处理 请求， act: &#39;newconn&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-420" y="634" width="377" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-40" value="执行 ipc 通信回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
@@ -228,6 +228,9 @@
         </mxCell>
         <mxCell id="0VZ2eFC5ibp_0VRxgWUH-55" value="调用自身轮询" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-605" y="639" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZ2eFC5ibp_0VRxgWUH-56" value="onconnection" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="609" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
