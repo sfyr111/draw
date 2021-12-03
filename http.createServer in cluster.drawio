@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T14:28:34.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="tWZdAVXaTQVLhu5wbyWl" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T14:29:24.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="1lHA3UuONdkxU4c-NXBG" version="15.8.9" type="github">
   <diagram id="Es0d-wzucGMr7oLocFgV" name="第 1 页">
     <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,8 +45,8 @@
         <mxCell id="YYYhBLbbZfH8u_qFGWKK-7" value="cluster._getServer(server, serverQuery, listenOnMasterHandle)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="250" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YYYhBLbbZfH8u_qFGWKK-11" value="worker process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=none;" parent="1" vertex="1">
-          <mxGeometry x="910" y="-50" width="120" height="30" as="geometry" />
+        <mxCell id="YYYhBLbbZfH8u_qFGWKK-11" value="worker process 子进程" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="910" y="-50" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QnhcxREiLZKdfHmg9MSz-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="1" source="YYYhBLbbZfH8u_qFGWKK-15" target="QnhcxREiLZKdfHmg9MSz-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -60,8 +60,8 @@
         <mxCell id="YYYhBLbbZfH8u_qFGWKK-15" value="queryServer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="-797" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YYYhBLbbZfH8u_qFGWKK-20" value="master process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-740" y="-60" width="120" height="30" as="geometry" />
+        <mxCell id="YYYhBLbbZfH8u_qFGWKK-20" value="master process 主进程" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="-60" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QnhcxREiLZKdfHmg9MSz-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="1" source="YYYhBLbbZfH8u_qFGWKK-64" target="QnhcxREiLZKdfHmg9MSz-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
