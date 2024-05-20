@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T04:38:59.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="cTvM0_iWPn1TlzlWKUGB" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T04:46:03.811Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="l9Fc37uTSksavanZiMkD" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,29 +174,52 @@
         <mxCell id="TQ9T5p_0JYmJN774RMlS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-3" target="TQ9T5p_0JYmJN774RMlS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-3" target="TQ9T5p_0JYmJN774RMlS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-3" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Create a Staking transaction&lt;/h1&gt;&lt;p&gt;&amp;nbsp; timelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingAmount,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; changeAddress,&lt;/p&gt;&lt;p&gt;&amp;nbsp; inputUTXOs,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network(),&lt;/p&gt;&lt;p&gt;&amp;nbsp; btcWallet.isTaproot ? btcWallet.publicKeyNoCoord() : undefined,&lt;/p&gt;&lt;p&gt;&amp;nbsp; dataEmbedScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; lockHeight,&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="380" width="360" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="TQ9T5p_0JYmJN774RMlS-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;stakingTx&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="770" y="380" width="360" height="340" as="geometry" />
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.033;exitY=0.383;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-4" target="TQ9T5p_0JYmJN774RMlS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-4" target="TQ9T5p_0JYmJN774RMlS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;stakingTx&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="520" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-6" target="TQ9T5p_0JYmJN774RMlS-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Create Unbonding transaction&lt;/h1&gt;&lt;p&gt;&amp;nbsp; unbondingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTimelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; timelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingTx,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network,&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="900" y="900" width="210" height="220" as="geometry" />
+          <mxGeometry x="920" y="880" width="210" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="TQ9T5p_0JYmJN774RMlS-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;unbondingTx&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1190" y="900" width="210" height="220" as="geometry" />
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;unbondingTx&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="960" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-9" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Collecting Unbonding Signatures&lt;/h1&gt;&lt;p&gt;createWitness(&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTx.ins[0].witness: Buffer[], // original witness&lt;/p&gt;&lt;p&gt;&amp;nbsp; covenantPks: Buffer[],&lt;/p&gt;&lt;p&gt;&amp;nbsp; covenantUnbondingSignatures: {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; btc_pk_hex: string;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; sig_hex: string;&lt;/p&gt;&lt;p&gt;&amp;nbsp; }[],&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="825" width="230" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="TQ9T5p_0JYmJN774RMlS-10" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Withdraw expired&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;stakingTx: Transaction&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;withdrawTimelockUnbondedTransaction(&lt;/p&gt;&lt;p&gt;&amp;nbsp; timelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingTx,&lt;/p&gt;&lt;p&gt;&amp;nbsp; btcWallet.address,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingOutputIndex,&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-10" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Withdraw expired&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;stakingTx: Transaction&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;withdrawTimelockUnbondedTransaction(&lt;/p&gt;&lt;p&gt;&amp;nbsp; timelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingTx,&lt;/p&gt;&lt;p&gt;&amp;nbsp; btcWallet.address,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingOutputIndex,&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-150" y="1205" width="270" height="365" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-11" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Withdraw early&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;unbondingTx: Transaction&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;withdrawEarlyUnbondedTransaction(&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTimelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTx,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalAddress,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingOutputIndex,&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="1212.5" width="270" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-7" target="TQ9T5p_0JYmJN774RMlS-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQ9T5p_0JYmJN774RMlS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-4" target="TQ9T5p_0JYmJN774RMlS-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="730" />
+              <mxPoint x="-170" y="730" />
+              <mxPoint x="-170" y="1296" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
