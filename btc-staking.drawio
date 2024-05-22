@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T12:49:49.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="u2w8fqagrlRdHt6cSD6z" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T12:50:59.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="w_t7ys9fluVUgNG8G5LV" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1615" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
           <mxGeometry x="310" y="100" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-1" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;timelockScript&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;stakerKey&amp;nbsp; OP_CHECKSIGVERIFY&lt;br&gt;stakingTimeLock&amp;nbsp;OP_CHECKSEQUENCEVERIFY&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="-110" width="280" height="80" as="geometry" />
+          <mxGeometry x="740" y="160" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-3" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Create a Staking transaction&lt;/h1&gt;&lt;p&gt;&amp;nbsp; timelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingAmount,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; changeAddress,&lt;/p&gt;&lt;p&gt;&amp;nbsp; inputUTXOs,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network(),&lt;/p&gt;&lt;p&gt;&amp;nbsp; btcWallet.isTaproot ? btcWallet.publicKeyNoCoord() : undefined,&lt;/p&gt;&lt;p&gt;&amp;nbsp; dataEmbedScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; lockHeight,&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="380" width="360" height="340" as="geometry" />
@@ -195,11 +195,6 @@
         <mxCell id="TQ9T5p_0JYmJN774RMlS-11" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Withdraw early&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;unbondingTx: Transaction&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;withdrawEarlyUnbondedTransaction(&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTimelockScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; slashingScript,&lt;/p&gt;&lt;p&gt;&amp;nbsp; unbondingTx,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalAddress,&lt;/p&gt;&lt;p&gt;&amp;nbsp; withdrawalFee,&lt;/p&gt;&lt;p&gt;&amp;nbsp; network,&lt;/p&gt;&lt;p&gt;&amp;nbsp; stakingOutputIndex,&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="1212.5" width="270" height="365" as="geometry" />
         </mxCell>
-        <mxCell id="TQ9T5p_0JYmJN774RMlS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-7" target="TQ9T5p_0JYmJN774RMlS-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="1270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TQ9T5p_0JYmJN774RMlS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HnZb9OT3W1T1DSvKZL01-0" target="HnZb9OT3W1T1DSvKZL01-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -211,16 +206,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TS_OjDuDCjxSZMuYoUpQ-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; timelockScript,&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; unbondingScript,&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; slashingScript,&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; dataEmbedScript,&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; unbondingTimelockScript,&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1095" y="50" width="270" height="230" as="geometry" />
+          <mxGeometry x="1080" y="-40" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="TS_OjDuDCjxSZMuYoUpQ-2" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;unbondingScript&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;stakerKey&amp;nbsp; OP_CHECKSIGVERIFY&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[0], OP_CHECKSIG,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[1], OP_CHECKSIGADD,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[2], &#39;OP_CHECKSIGADD,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;covenantThreshold, &#39;OP_NUMEQUALVERIFY&#39;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="120" width="340" height="140" as="geometry" />
+          <mxGeometry x="740" y="30" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="TS_OjDuDCjxSZMuYoUpQ-3" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;unbondingTimeScript&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;stakerKey&amp;nbsp; OP_CHECKSIGVERIFY&lt;br&gt;unbondingTimeLock&amp;nbsp;OP_CHECKSEQUENCEVERIFY&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" width="280" height="80" as="geometry" />
+          <mxGeometry x="740" y="240" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TS_OjDuDCjxSZMuYoUpQ-4" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;slashingScript&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;stakerKey&amp;nbsp; OP_CHECKSIGVERIFY&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;finalityProviderKeys[0], OP_CHECKSIGVERIFY&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[0], OP_CHECKSIG,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[1], OP_CHECKSIGADD,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;convenantKeys[2], &#39;OP_CHECKSIGADD,&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;covenantThreshold, &#39;OP_NUMEQUALVERIFY&#39;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="755" y="290" width="340" height="140" as="geometry" />
+          <mxGeometry x="740" y="-120" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="TS_OjDuDCjxSZMuYoUpQ-7" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0.993;exitY=0.639;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TQ9T5p_0JYmJN774RMlS-0" target="TQ9T5p_0JYmJN774RMlS-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
