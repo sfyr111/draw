@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T11:27:59.879Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="thaPxOLXw5bQChw9Td-v" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T11:36:20.624Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Eg88sW6VXggOmRW29LKF" version="24.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1810" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -287,7 +287,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HnZb9OT3W1T1DSvKZL01-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HnZb9OT3W1T1DSvKZL01-8" target="HnZb9OT3W1T1DSvKZL01-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1270" />
+              <mxPoint x="720" y="1270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HnZb9OT3W1T1DSvKZL01-8" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=60;dy=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1020" y="990" width="120" height="110" as="geometry" />
@@ -361,20 +366,20 @@
         <mxCell id="MFweAD_r3C40zrFmttzE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MFweAD_r3C40zrFmttzE-4" target="HnZb9OT3W1T1DSvKZL01-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MFweAD_r3C40zrFmttzE-4" value="[&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }, { output: timelockScript }],&#xa;]" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MFweAD_r3C40zrFmttzE-4" value="scriptTree: [&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }, { output: timelockScript }],&#xa;]" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="585" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MFweAD_r3C40zrFmttzE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MFweAD_r3C40zrFmttzE-7" target="HnZb9OT3W1T1DSvKZL01-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MFweAD_r3C40zrFmttzE-7" value="[&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }],&#xa;]" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MFweAD_r3C40zrFmttzE-7" value="scriptTree: [&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }],&#xa;]" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="1115" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MFweAD_r3C40zrFmttzE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MFweAD_r3C40zrFmttzE-8" target="HnZb9OT3W1T1DSvKZL01-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MFweAD_r3C40zrFmttzE-8" value="[&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }, { output: timelockScript }],&#xa;]" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="730" y="1115" width="330" height="110" as="geometry" />
+        <mxCell id="MFweAD_r3C40zrFmttzE-8" value="scriptTree: [&#xa;    {&#xa;      output: slashingScript,&#xa;    },&#xa;    [{ output: unbondingScript }, { output: timelockScript }],&#xa;]&#xa;&#xa;redeem: unboundingScript" style="text;whiteSpace=wrap;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="1110" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
